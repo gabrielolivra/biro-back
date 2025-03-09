@@ -6,7 +6,6 @@ import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
 
-console.log(process.env.DB_HOST)
 @Module({
   imports: [
     ConfigModule.forRoot({

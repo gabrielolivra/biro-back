@@ -27,8 +27,6 @@ export class UsersService {
     });
    this.usersRepository.save(user);
 
-
-   user.password = ''
    return {
     ...user,   
      id: user.id,

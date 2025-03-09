@@ -11,6 +11,9 @@ export class Users {
   @Column({name:'lastName'})
   lastName: string;
 
+  @Column({name:'username'})
+  username: string;
+  
   @Column({
     name:'email',
     unique: true 

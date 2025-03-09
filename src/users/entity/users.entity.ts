@@ -29,9 +29,4 @@ export class Users {
   @Column({name:'created_at', default: () => 'CURRENT_TIMESTAMP'})
   createdAt: Date;
 
-  @Column({name:'updated_at', default: () => 'CURRENT_TIMESTAMP'})
-  updatedAt: Date;
-
-  @Column({name:'deleted_at', default: () => 'CURRENT_TIMESTAMP'})
-  deletedAt: Date;
 }
